@@ -45,12 +45,10 @@ p{
 }
 
 button{
-    font-family: 'Figtree', sans-serif;
-
+  font-family: 'Figtree', sans-serif;
   width: 100%;
   padding: 8px 0;
   border-radius: 4px;
-  /* text-transform: uppercase; */
   font-size: 16px;
   font-weight: 400;
   background-color: #E38C77;
@@ -66,6 +64,12 @@ button{
 
 img{
   width:100%;
+}
+.polaroid{
+  margin-top: 24px;
+  background-color: white;
+  padding: 15px 15px 40px 15px;
+  box-shadow: 0 0.2rem 1.2rem rgba(0,0,0,0.2);
 }
 
 @media (max-width: 640px) { 
